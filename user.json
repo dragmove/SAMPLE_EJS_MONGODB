@@ -1,0 +1,23 @@
+{
+	"type": "object",
+	"additionalProperties": false,
+	"properties": {
+		"_id" : {
+			"type": "string",
+			"minLength": 25,
+			"maxLength": 25
+		},
+		"id" : {
+			"required": true,
+			"type": "string",
+			"minLength": 2,
+			"maxLength": 127
+		},
+		"password" : {
+			"required": true,
+			"type": "string",
+			"minLength": 2,
+			"maxLength": 127
+		}
+	}
+}
